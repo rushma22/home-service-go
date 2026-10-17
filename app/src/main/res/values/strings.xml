@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HomeServiceGo</string>
+    <!-- Google Maps / Places API key (same key used in AndroidManifest) -->
+    <string name="google_api_key">AIzaSyDl-ZKttCbeZYQxn50OrIP71CTK14HRMpk</string>
+</resources>

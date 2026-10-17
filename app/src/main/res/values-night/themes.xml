@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HomeServiceGo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Force light colors even in dark mode -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+</resources>

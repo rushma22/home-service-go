@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_header"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- App Logo -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImage"
+        app:strokeWidth="3dp"
+        app:strokeColor="#FFFFFF" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="ServiceGo"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.04" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Home Services at Your Fingertips"
+        android:textColor="#B3E5FC"
+        android:textSize="15sp" />
+
+    <!-- Loading spinner -->
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:indeterminateTint="#FFFFFF" />
+
+</LinearLayout>

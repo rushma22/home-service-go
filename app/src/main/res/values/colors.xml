@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Palette (Deep Blue) -->
+    <color name="primaryColor">#1565C0</color>
+    <color name="primaryDark">#003c8f</color>
+    <color name="primaryLight">#5e92f3</color>
+    <color name="primaryVariant">#1976D2</color>
+
+    <!-- Accent (Amber) -->
+    <color name="secondaryColor">#F59E0B</color>
+    <color name="accentColor">#F59E0B</color>
+
+    <!-- Backgrounds -->
+    <color name="backgroundColor">#F0F4F8</color>
+    <color name="surfaceColor">#FFFFFF</color>
+    <color name="cardBackground">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="textColorPrimary">#1A1A2E</color>
+    <color name="textColorSecondary">#6B7280</color>
+    <color name="textColorHint">#9CA3AF</color>
+    <color name="textColorLight">#FFFFFF</color>
+
+    <!-- Status -->
+    <color name="successColor">#10B981</color>
+    <color name="warningColor">#F59E0B</color>
+    <color name="errorColor">#EF4444</color>
+
+    <!-- Category Icon Backgrounds -->
+    <color name="colorIconBlueBg">#DBEAFE</color>
+    <color name="colorIconGreenBg">#D1FAE5</color>
+    <color name="colorIconAmberBg">#FEF3C7</color>
+    <color name="colorIconPinkBg">#FCE7F3</color>
+
+    <!-- Category Icon Tints -->
+    <color name="colorIconBlue">#1D4ED8</color>
+    <color name="colorIconGreen">#059669</color>
+    <color name="colorIconAmber">#D97706</color>
+    <color name="colorIconPink">#DB2777</color>
+
+    <!-- Divider -->
+    <color name="dividerColor">#E5E7EB</color>
+</resources>
